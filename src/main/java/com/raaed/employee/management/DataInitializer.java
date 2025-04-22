@@ -8,6 +8,8 @@ import org.springframework.stereotype.Component;
 import java.time.LocalDate;
 import java.util.List;
 
+//datainitalizer class mainly used for testing database functions
+
 @Component
 public class DataInitializer {
 

@@ -3,6 +3,7 @@ package com.raaed.employee.management.model;
 import jakarta.persistence.*;
 import java.time.LocalDate;
 
+//marks this class as an entity for spring to find
 @Entity
 @Table(name = "employees")
 public class Employee {

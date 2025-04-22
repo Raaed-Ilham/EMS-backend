@@ -9,6 +9,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 import java.util.Optional;
 
+//marks as repository to alert spring it will be handling data storage logic
 @Repository
 public interface EmployeeRepository extends JpaRepository<Employee, Long> {
     //unused filter function to sort by department

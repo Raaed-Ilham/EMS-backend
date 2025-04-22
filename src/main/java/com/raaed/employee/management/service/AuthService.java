@@ -12,6 +12,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class AuthService {
 
+    //Authentication service class handling data transfer between repositry and jwUtil class
+
     @Autowired
     private EmployeeRepository employeeRepository;
 

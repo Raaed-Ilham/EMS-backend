@@ -5,6 +5,10 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
+
+// this class lets rest api methods to interact with others in a different website or domain
+//https://spring.io/guides/gs/rest-service-cors#global-cors-configuration
+
 @Configuration
 public class WebConfig implements WebMvcConfigurer {
 

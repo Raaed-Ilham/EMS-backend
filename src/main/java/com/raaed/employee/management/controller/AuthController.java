@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/auth")
 @CrossOrigin(origins = "http://localhost:3000")
+
+//authentication controller to handle requests for login
+
 public class AuthController {
 
     @Autowired

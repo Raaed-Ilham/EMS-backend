@@ -17,6 +17,9 @@ public class JWTUtil {
     @Value("${jwt.expiration}")
     private long EXPIRATION_TIME; // 1 hour
 
+    // create JWT token to send to the user to be stored in local storage
+    //https://www.geeksforgeeks.org/spring-boot-3-0-jwt-authentication-with-spring-security-using-mysql-database/
+
     public String generateToken(String email, String role) {
         return Jwts.builder()
                 .setSubject(email)

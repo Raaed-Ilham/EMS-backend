@@ -10,6 +10,8 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 
+// @config marks as place where Beans are made
+// class to handle security and api request sources
 @Configuration
 public class SecurityConfig {
 

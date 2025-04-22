@@ -1,5 +1,8 @@
 package com.raaed.employee.management.dto;
 
+
+// auth request obj to hold data use we need to verify user login
+
 public class AuthRequest {
     private String email;
     private String password;
