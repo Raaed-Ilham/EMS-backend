@@ -27,6 +27,7 @@ public class SecurityConfig {
                         .requestMatchers("/auth/login").permitAll()
                         .requestMatchers("employees").permitAll()
                         .requestMatchers("add-employee").permitAll()
+                        .requestMatchers("tasks").permitAll()
 
                         // Role-based endpoints below
                         //one option for routing right now it is  handled in react fronted
